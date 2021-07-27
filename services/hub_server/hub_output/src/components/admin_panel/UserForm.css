@@ -1,0 +1,32 @@
+.add_user{
+    display:flex;
+
+}
+.icon {
+    margin-left: 10px;
+    margin-top: 1px;
+    color: #5850EC;
+}
+
+.ant-btn:hover, .ant-btn:focus {
+    color: #5850EC;
+    background: #fff;
+    border-color: #5850EC;
+}
+
+.ant-modal-footer .ant-btn :hover {
+    border-color: #5850EC;
+    color: #5850EC ;
+}
+
+
+.ant-btn-primary {
+    background-color: #5850EC ;
+    border:none;
+}
+
+.ant-btn-primary:hover {
+    background-color: #5850ec63 ;
+    color: #5850EC;
+    border:none;
+   }

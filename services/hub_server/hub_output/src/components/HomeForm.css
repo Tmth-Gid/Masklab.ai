@@ -1,0 +1,164 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.homeContainer {
+    width: 100vw;
+    height: 100vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer {
+    background-color: #f6f6f6;
+    z-index: 1;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    background: #f7f7f7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    padding-bottom: 2em;
+}
+
+.panelContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.landingContainer {
+    display: flex;
+    background-color: #f7f7f7;
+    
+}
+
+.containerImg {
+    text-align: center;
+}
+
+.logo {
+    width: 35%;
+    margin-top: 5%;
+}
+
+.containerItem {
+    flex: 0 1 auto;
+}
+
+.containerInput {
+    display: grid;
+    width: 75%;
+}
+
+.labelItem {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: start;
+    color: #727272;
+}
+
+.buttonText {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #5850ec;
+    text-decoration: unset;
+}
+
+.MessageText {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    text-align: start;
+    color: #5850ec;
+    text-decoration: unset;
+}
+
+.inputItem {
+    border-radius: 15px;
+    border: 1px solid #c5c5c5;
+    height: 5vh;
+    box-shadow: 0px 1px 15px -10px black;
+    background-color: transparent;
+    width: 100%;
+}
+
+.linkSubmit {
+    width: 100%;
+    text-align: center;
+}
+
+.buttonSubmit {
+    background: #5850ec;
+    border: 1px solid #5850ec;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 55%;
+    height: 5vh;
+    /* Sign in */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 21px;
+    /* identical to box height */
+    color: #ffffff;
+}
+
+.buttonSubmit:hover {
+    background: #3933ac;
+}
+
+.paddingBottom {
+    padding-bottom: 1.5em;
+}
+
+.wave {
+    position: sticky;
+    bottom: 0px;
+    left: 0;
+}
+
+.wave_under {
+    position: sticky;
+    bottom: -7px;
+    left: 0;
+}
+
+.ant-input-password {
+    border-radius: 15px !important;
+}
+
+.buttonSignIn {
+    border: 1px solid #5850ec;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 100%;
+    height: 5vh;
+    /* Sign in */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 21px;
+    /* identical to box height */
+    color: #ffffff;
+}

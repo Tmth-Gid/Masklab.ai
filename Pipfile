@@ -1,0 +1,45 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = false
+name = "pypi"
+
+[requires]
+python_version = "3.8"
+
+[packages]
+flask-restx = "*"
+gunicorn = "*"
+python-dotenv = "*"
+schedule = "*"
+requests = "*"
+opencv-python-mac = { file = "https://files.pythonhosted.org/packages/76/e2/a4edd1d9cb5ebbe5fb8f42309a5e7dc20cdd6d13280c2e49f923912c257e/opencv_python-4.5.2.54-cp38-cp38-macosx_10_15_x86_64.whl", sys_platform = "== 'darwin'" }
+opencv-python-win = { file = "https://files.pythonhosted.org/packages/3e/ae/f0629a78fc5b631280664a91de8d2cee6e418790fec064e656897508fd33/opencv_python-4.5.2.54-cp38-cp38-win_amd64.whl", sys_platform = "== 'win32'" }
+opencv-python-linux = {file = "https://files.pythonhosted.org/packages/83/92/d663ec1a7f6717a22e5053b03c04a19744f79fa7105313aa74c6d5a9974d/opencv_python-4.5.2.54-cp38-cp38-manylinux2014_x86_64.whl", sys_platform = "== 'linux'"}
+torch-mac = { file = "https://download.pytorch.org/whl/cpu/torch-1.8.1-cp38-none-macosx_10_9_x86_64.whl", sys_platform = "== 'darwin'" }
+torchvision-mac = { file = "https://download.pytorch.org/whl/torchvision-0.9.1-cp38-cp38-macosx_10_9_x86_64.whl", sys_platform = "== 'darwin'" }
+torch-win = { file = "https://download.pytorch.org/whl/cpu/torch-1.8.1%2Bcpu-cp38-cp38-win_amd64.whl", sys_platform = "== 'win32'" }
+torchvision-win = { file = "https://download.pytorch.org/whl/cpu/torchvision-0.9.1%2Bcpu-cp38-cp38-win_amd64.whl", sys_platform = " == 'win32'" }
+torch-linux = { file = "https://download.pytorch.org/whl/cu102/torch-1.8.1%2Bcu102-cp38-cp38-linux_x86_64.whl", sys_platform = "== 'linux'" }
+torchvision-linux = { file = "https://download.pytorch.org/whl/cu102/torchvision-0.9.1%2Bcu102-cp38-cp38-linux_x86_64.whl", sys_platform = "== 'linux'" }
+pymongo = "*"
+pandas = "*"
+tqdm = ">=4.41.0"
+matplotlib = ">=3.2.2"
+numpy = ">=1.18.5"
+seaborn = ">=0.11.0"
+scipy = ">=1.4.1"
+tensorboard = ">=2.4.1"
+Flask-JWT-Extended = "*"
+Flask-Bcrypt = "*"
+Flask-Cors = "*"
+PyYAML = ">=5.3.1"
+Pillow = "*"
+wandb = "*"
+flask-socketio = "*"
+eventlet = "*"
+websocket-client = "*"
+
+[dev-packages]
+pylint = "*"
+honcho = "*"
+coverage = "*"

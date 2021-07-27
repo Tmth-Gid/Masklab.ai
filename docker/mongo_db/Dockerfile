@@ -1,0 +1,3 @@
+FROM mongo:latest
+EXPOSE 27017
+ENV MONGO_INITDB_DATABASE masklab

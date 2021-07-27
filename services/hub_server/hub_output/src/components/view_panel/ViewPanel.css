@@ -1,0 +1,106 @@
+.backgroundPrimary {
+    background-color: #5850EC;
+}
+
+.divFlex {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #5850EC;
+}
+
+.viewContainer {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.cameraPreview {
+    border-radius: 25px;
+    max-height: 50vh;
+}
+
+.containerZonePanel {
+    width: 20%;
+    padding: 0 20px;
+}
+
+.buttonZonePanel {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.zoneButtonSelected {
+    background: #5850ec;
+    border: 1px solid #5850ec;
+    box-sizing: border-box;
+    border-radius: 15px;
+    height: 5vh;
+    margin: 10px;
+    width: 85%;
+    /* Sign in */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 21px;
+    /* identical to box height */
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.zoneButtonUnselected {
+
+    border: 2px solid #5850ec;
+    box-sizing: border-box;
+    border-radius: 15px;
+    height: 5vh;
+    margin: 10px;
+    width: 85%;
+    /* Sign in */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 21px;
+    /* identical to box height */
+    color: #5850ec;
+    cursor: pointer;
+}
+
+.zoneButtonUnselected:hover {
+    background-color: #5850ec17;
+}
+
+.statsPanel {
+    width: calc(100% - 40px);
+    height: calc(35% - 40px);
+    display: flex;
+    margin: 20px;
+    background-color: #5850EC;
+}
+
+.statComponentSection {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    border-radius: 25px;
+    padding: 20px;
+    color: #5850EC;
+}
+
+.titleStat {
+    text-align: center;
+    color: #5850EC
+}
+
+.containerStats {
+    display: grid;
+    height: 100px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100px;
+}

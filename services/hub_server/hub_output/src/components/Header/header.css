@@ -1,0 +1,74 @@
+.header {
+    width: 100%;
+    height: 15%;
+    background-color: #5850EC;
+    display: flex;
+    align-items: center;
+}
+
+.nav_menu {
+    width: calc(80% - 40px);
+    height: 30%;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    align-self: center;
+    display: flex;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 20px;
+}
+
+.return_btn {
+    width: calc(20% - 40px);
+    height: 30%;
+    display: flex;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px !important;
+    align-items: center;
+    margin: 20px;
+}
+
+.return_btn:hover {
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+p {
+    margin: auto;
+    color: #5850EC;
+    font-weight: bold;
+}
+
+.button_icon {
+    display: flex;
+}
+
+.logout_icon {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    color: #5850EC;
+
+}
+
+.menu {
+    border-radius: 10px;
+}
+
+.menu_item {
+    color: #5850EC;
+}
+.menu_item:hover {
+    border-radius: 10px;
+}
+
+
+.ant-dropdown-menu-submenu-title {
+    margin: auto;
+    color: #5850EC;
+    font-weight: bold;
+}

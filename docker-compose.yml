@@ -1,0 +1,41 @@
+version: "3"
+services:
+  hub_api:
+    container_name: "hub_api"
+    build:
+      context: .
+      dockerfile: ./docker/hub_api/Dockerfile
+    ports:
+      - "5001:5001"
+    environment:
+      - PYTHONUNBUFFERED=1
+  hub_input:
+    container_name: "hub_input"
+    build:
+      context: .
+      dockerfile: ./docker/hup_input/Dockerfile
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./services/hub_server:/hub_input
+  hub_output:
+    container_name: "hub_output"
+    build:
+      context: .
+      dockerfile: ./docker/hub_output/Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./services/hub_server:/hub_output
+  mongo_db:
+    container_name: "mongo_db"
+    build:
+      context: .
+      dockerfile: ./docker/mongo_db/Dockerfile
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb_data_container:/data/db
+
+volumes:
+  mongodb_data_container:

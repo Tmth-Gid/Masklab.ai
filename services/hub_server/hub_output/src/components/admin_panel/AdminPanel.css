@@ -1,0 +1,110 @@
+.ant-table-wrapper {
+    width: 100%;
+}
+
+.panelContainer {
+    height: 80%;
+}
+
+.fullScreen {
+    height: 100vh;
+}
+
+.ant-table-wrapper {
+    height: 100%;
+}
+
+.ant-spin-nested-loading {
+    height: 100%;
+}
+
+.ant-spin-container {
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.ant-table {
+    flex: auto;
+    overflow: hidden;
+}
+
+.ant-table-container {
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.ant-table-header {
+    flex: none;
+}
+
+.ant-table-body {
+    flex: auto;
+    overflow: scroll;
+}
+
+.ant-table-pagination {
+    flex: none;
+}
+
+.addUser {
+    height: 10%;
+    text-align: center;
+}
+
+.addUser button {
+    background-color: #5850EC;
+    width: 200px;
+    height: 25px;;
+    border-radius: 25px;
+    border: none;
+}
+
+.addUser button :hover {
+    background-color: #655fdb;
+    cursor: pointer;
+}
+
+.addUser button p {
+    color: white;
+}
+
+.user-raw {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 50px;
+}
+
+.user-raw-row {
+    row-gap: 0px;
+    width: 29%;
+    margin: 0 2%;
+    margin-bottom: 30px;
+}
+
+.ant-select-selector {
+    border-radius: 25px !important;
+}
+
+.user-raw-btn {
+    border-color: #5850EC;
+    color: #5850EC;
+    width: 100%;
+    border: solid 1px #5850EC !important;
+}
+
+.user-raw-row-btn {
+    row-gap: 0px;
+    width: 29%;
+    margin: 0 2%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.ant-btn-link:hover, .ant-btn-link:focus {
+    color: #5850ec7c !important;
+    background: transparent;
+    border-color: #5850EC !important;
+    background-color: #5850ec;
+}
